@@ -1,0 +1,22 @@
+section ol>li:first-child{
+    color:black;
+}
+ol{
+    color:palevioletred;
+}
+foot p{
+    color:block;
+
+}
+foot p:nth-child(2){
+    color:orange;
+
+}
+ body>foot p:last-of-type{
+      color:black;
+ }
+
+ body>nav a:first-child{
+     color:red;
+ }
+ 
