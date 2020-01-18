@@ -16,7 +16,22 @@ foot p:nth-child(2){
       color:black;
  }
 
- body>nav a:first-child{
+ nav a:first-child{
+     color:purple;
+ }
+ nav a{
      color:red;
  }
  
+ h1:first-letter{
+     color:black;
+ }
+ header h1:first-of-type{
+     color:greenyellow;
+ }
+ section h1:first-of-type{
+     color:orange;
+ }
+ section>h1{
+     color: greenyellow;
+ }
