@@ -1,11 +1,23 @@
 html{
-    border: 1px solid black;
+    border: 1px solid purple;
 }
 body{
     margin: 10px;
-    border: 2px solid gray;
+    border: 2px solid red;
 }
 .radius{
     border: 2px solid orange;
     border-radius: 20px;
 }
+ div{
+     border: 1px solid blue;
+ }
+ p{
+     border: 1px solid green;
+ }
+ span{
+     border:3px dotted brown;
+ }
+ a{
+     border:2px dashed coral;
+ }
