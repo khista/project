@@ -10,6 +10,14 @@
 <body>
 <header class="site-header" id = " site-header">
 
+<?php 
+
+                String url ="jdbc:mysql:/"
+
+?>
+
+
+
 <?php
 
  print "<nav>
