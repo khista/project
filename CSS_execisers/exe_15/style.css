@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#252525;
+    margin:0px;
+    padding: 0px;
+}
+h1{
+    margin: 0px;
+}
+.main{
+    background: white;
+    background-image: url("pattern.png");
+    background-repeat: repeat-x;
+    background-position-x: left;
+    background-position-y: bottom;
+    padding: 50px 50px 300px 50px;
+    
+}
