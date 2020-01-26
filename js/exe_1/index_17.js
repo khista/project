@@ -10,6 +10,15 @@ Create a template variable with the following value: In %seriesName% the dragons
 Use console.log to output the interpolated template value
 The final result must be: In Game of Thrones the dragons name are: Drogon, Rhaegal & Viserion */
 
+let cableCase = 'Game of thrones';
+let dragon1 = 'Drogon';
+let dragon2 ='Rhaegal';
+let dragon3 ='Viserion';
+
+var template =`In ${cableCase} the dragons name are: ${dragon1}, ${dragon2} and ${dragon3}`;
+console.log(template);
+
+
 
 
 
