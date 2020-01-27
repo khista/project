@@ -12,3 +12,13 @@ Variable name: freeTime, value: null
 Show each value using console.log() with the variable name (string) as first parameter and the actual variable value as second
 Example: console.log('name', name);
 Also show the variable names and the type of value it has assigned (use typeof) */
+
+let superHeroName = 'Batman';
+let name = 'Bruce Wayne';
+let fly = false;
+let hasBatMobile = true;
+let life = 50;
+let freeTime =null;
+
+console.log ('\nName: ',name+" \nSuperHeroName: ",superHeroName+ " \nis he can fly: ",fly
++" \nHas a Batman Mobile: ",hasBatMobile+"\nHis life: ",life+"\nFree Time: ",freeTime);
