@@ -34,10 +34,7 @@ Side length is 5
 Show a descriptive message to show the square area and side length
  */
 
- let sides =2;
- let lengths =5;
-
- let area = side * length;
-
- console.log('Total area of the square is: ',area);
+  let sideA =5;
+  let areaA = sideA * sideA;
+  console.log(`the squre total are equal: (${areaA}) and side lenght equal:(${sideA})`)
 
