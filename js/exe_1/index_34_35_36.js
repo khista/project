@@ -53,6 +53,6 @@ Both variables don't have the same value: true/false
  let firstNumber = 10;
  let secondNumber=20;
  
- console.log(`Is the first number equal to Second number ${firstNumber == secondNumber}`);
+ console.log(`Both variable have the same value ${firstNumber == secondNumber}`);
    
- console.log(`Is the first number equal to Second number ${firstNumber != secondNumber}`);
+ console.log(`Both variable do not have the same value ${firstNumber != secondNumber}`);
