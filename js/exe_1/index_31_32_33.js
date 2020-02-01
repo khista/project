@@ -61,6 +61,10 @@ console.log(userCount);
 userCount +=userCount;
 console.log(userCount);
 
+ let menCount = userCount /2;
+ let womenCount = userCount/2;
+ console.log(`Total users ${userCount}. Men users ${menCount} and Women ${womenCount}`)
+ 
 
 
 
