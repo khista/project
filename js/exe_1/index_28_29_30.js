@@ -13,3 +13,31 @@ let num1 =1;
  }
 
  //exe_29
+/* Create a new index29.js file
+Calculate and show the perimeter of a square
+Side length is 10
+Show a descriptive message to show the square perimeter and side length
+ */
+
+ let side = 4;
+ let length = 10;
+ let squarePerimeter = side * length;
+
+ console.log('Square perimeter is equal:',squarePerimeter);
+
+
+ //exe_30
+
+ /* Create a new index30.js file
+Calculate and show the area of a square
+Side length is 5
+Show a descriptive message to show the square area and side length
+ */
+
+ let sides =2;
+ let lengths =5;
+
+ let area = side * length;
+
+ console.log('Total area of the square is: ',area);
+
