@@ -94,7 +94,7 @@ if(firstNum>secondNum){
     console.log(`The second Number ${secondNum} is bigger than ${firstNum}`);
 }
 
-
+console.log("----------------------50-----------------------------");
 //exe_50
 
 /* Define a number variable and assign the following value: 10
