@@ -12,6 +12,16 @@ let year = 2008;
 let champion = 2007;
 
 if(year > 2017 && year < 2006){
-    
+    console.log(`Sorry, Please try a differnt year`);
+}
+switch(year){
+    case 2007:
+        console.log(`${year} - Pittsburgh Penguins ${champion}`);
+        break;
+    case 2008:
+        console.log(`${year} - Los Angeles Kings ${champion}`);
+        break;
+    default:
+        console.log("invalid entry please try again!!");
 }
 
