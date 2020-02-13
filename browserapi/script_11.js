@@ -11,28 +11,28 @@ If the user confirms that he wants to be logged show the following message:
 Else show the following message
 %username% your session has expaired */
 
- 
-let username,password;
 
-let userAndPass = function(){
-   username= window.prompt('Enter User Name');
-   password=window.prompt('Enter Password'); 
-   return username;
-} 
-    window.alert(`Welcome `+ userAndPass());
-let confirmation=function(){
+let username, password;
+
+let userAndPass = function () {
+    username = window.prompt('Enter User Name');
+    password = window.prompt('Enter Password');
+    return username;
+}
+window.alert(`Welcome ` + userAndPass());
+let confirmation = function () {
     let isYes = window.confirm(`Do you want to be logged?`)
 
-    if(isYes ==true){
+    if (isYes == true) {
         return true;
-    }else{
+    } else {
         return false;
     }
-    
+
 }
-setTimeout(confirmation,10000);
-if(confirmation() == true){
+setTimeout(confirmation, 10000);
+if (confirmation() == true) {
     window.alert(`${username}  your session has been restored`);
-}else{
+} else {
     window.alert(`${username} your session has expaired `);
 }
