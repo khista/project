@@ -18,11 +18,8 @@ let userAndPass = function(){
    username= window.prompt('Enter User Name');
    password=window.prompt('Enter Password'); 
    return username;
-}
-function validation(){
+} 
     window.alert(`Welcome `+ userAndPass());
-}
-validation();
 let confirmation=function(){
     let isYes = window.confirm(`Do you want to be logged?`)
 
