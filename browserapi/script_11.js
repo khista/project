@@ -28,7 +28,6 @@ let confirmation = function () {
     } else {
         return false;
     }
-
 }
 setTimeout(confirmation, 10000);
 if (confirmation() == true) {
