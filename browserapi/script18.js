@@ -4,10 +4,15 @@ Add the blue class if the element has the class attribute
 If not, then add the red class
 */
 
-let linkFirst = document.getElementsByClassName("a");
-console.log(linkFirst);
+let element = document.querySelector("a");
+
+element.classList.add('blue');
+if(!(element.classList.contains('blue'))){
+    element.classList.add("red");
+}
 
 
+console.log(element.classList);
 
 
  
