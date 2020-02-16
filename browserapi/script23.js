@@ -22,8 +22,7 @@ Try to create something with all the things that we learned so far! :) */
 
 let ul=document.querySelector('ul');
 let li=document.querySelectorAll('li');
- let nels=ul.innerHTML = li;
-console.log(nels);
+ 
  
 
 
