@@ -1,8 +1,12 @@
-Work-Format Desgin by Khista...
+Work-Format Desgin by Khista. coming soon..
 
-HTML:
 
-CSS:
+
+PHP:
+
+Java: 
+
+C++:
 
 JS:
 
@@ -10,6 +14,11 @@ API:
 
 SQL:
 
+HTML:
+
+CSS:
+
+VB 6.0:
 
 Git:
 
