@@ -1,16 +1,5 @@
 
-/* Create a basic HTML document
- <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Texts</title>
-</head>
-<body>
-  <h1>Main Title</h1>
-  <p>This is a paragraph</p>
-  <ul></ul>
-</body>
-</html>
+/* 
 Select the ul element
 Assign the following html string
 '<li>Item 1</li><li>Item 2</li><li>Item 3</li><li>Item 4</li><li>Item 5</li>'
@@ -19,9 +8,19 @@ Extra
 Try to create something with all the things that we learned so far! :) */
 
 
-
+//innerHTML
 let ul=document.querySelector('ul');
-let li=document.querySelectorAll('li');
+ul.innerHTML= "<li>Item 1</li><li>Item 2</li><li>Item 3</li><li>Item 4</li><li>Item 5</li>";
+console.log(ul);
+
+//Children
+
+let li = document.querySelector('li');
+let parent = li.parentElement;
+let SupperPar = parent.parentElement;
+
+console.log(parent);
+console.log(SupperPar);
  
  
 
