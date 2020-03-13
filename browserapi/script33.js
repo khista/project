@@ -1,26 +1,16 @@
 
+/*  Select the firstButton id element using querySelector method
+When the user clicks this button will see an alert message with the following message:
+You clicked an event listened element
+Use addEventListener to add this functionality
+Add other event listener to this button reading the doc and using your imagination! */
 
+let button = document.querySelector('button');
+ 
+ button.onclick=function(){
+    window.alert('You clicked an event listened element');
+} 
 
-
-
-
-
-
-
-
-
-let febanacci = function(n){
-    if(n<2) return n;
-    return febanacci(n-1) + febanacci(n-2);
-}
-let postion = 10;
-
-console.log(febanacci(postion));
-
-
-/* let button = document.querySelector('button');
-
-button.addEventListener('click',function(){
-    console.log('working finde');
-    window.alert('hello eventListener');
-}); */
+ button.addEventListener('click',function(){
+     console.log('this is from add event listener');
+ })
