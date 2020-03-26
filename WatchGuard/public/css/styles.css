@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding:0px;
+     
+}
+body{
+    
+    max-width: 99%;
+    min-width: 855px;
+    margin: 0px auto 0 auto;
+   /*  height: 1120px; */
+}
+
+/*The nav div*/
+.menuDiv{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display:inline-block;
+    height: 20px;
+     
+}
+
+/* First-nav*/
+.First-nav a{
+    background-color: cornflowerblue;
+    color: black;
+    width: 100%;
+    margin-right: 10px;
+}
+
+/* This is for create pug file */
+.inputform{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    /* border: black solid 2px; */
+    border-radius: 10px;
+}
+/*This is for input and button style*/
+.inputform input,button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 20px;
+    width: 90%;
+}
+/*This is large div for all guards profiles*/
+.guardsDiv{
+    width: 96%;
+   /*  background: aqua; */
+   /*  border: black solid 2px; */
+    margin: 100px auto 0 auto;
+}
+/*Each guard profile div*/
+.guarddiv{
+    width: 270px;
+    background-color: blanchedalmond;
+    color: black;
+    border: black solid 1px;
+    display:inline-block;
+    margin: 2px;
+    padding: 2px;
+   
+}
+.guarddiv img{
+width: 75px;
+height: 90px;
+float: left;
+padding-right:10px;
+}
+.guarddiv h6{
+    padding-top: 3px;
+    font-size: 9px;
+    line-height: 11px;
+    font-weight: bold;
+
+}
+.guarddiv a{
+    padding-top:1px;
+    margin-left:0px;
+}
+.guarddiv button{
+    width:20%;
+     height:25px;
+     font-size:8px; 
+     text-align:center; 
+     padding:0px;
+     margin:1px 6px 0px 0px;
+}
+.images-update img{
+    width: 75px;
+    height: 90px;
+    float: left;
+    padding:2px;
+}
+.guarddiv hr{
+    margin: 0px;
+    padding:3px;
+}

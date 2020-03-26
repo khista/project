@@ -1,0 +1,24 @@
+doctype html
+html(lang='eng')
+    head
+        block title
+        title=title
+        meta(http-equiv="Content-Type", content="text/html;charset=UTF-8")
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        link(rel="stylesheet", href="/css/styles.css")
+        
+        block styles
+        block scripts
+    body
+       
+        .menuDiv
+            .First-nav(class="shadow p-3 mb-5 bg-white rounded")
+                ul(class ="nav nav-pills")
+                    li(class="nav-item" style="margin-right:4px;")
+                        a(class="btn btn-primary" href="/") Home
+                    li(class="nav-item")
+                        a(class ="btn btn-primary" href="/create") New Profile         
+        block create
+        block content
+        block footer
+        .footerDiv

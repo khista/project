@@ -1,0 +1,14 @@
+extends ./layout.pug 
+
+block content
+   div.inputform(class="shadow-lg p-3 mb-5 bg-white rounded")
+        .guarddiv( class="shadow p-3 mb-5 bg-white rounded")
+                img(src='/img/guards/' + aGuard.image)
+                h6='ID #: ' + aGuard.id
+                h6='First Name: ' + aGuard.name.toUpperCase() 
+                h6='Phone: '+aGuard.phone 
+                h6='Email: ' + aGuard.email 
+                h6='Address: '+ aGuard.address
+            
+        h6="Security guard Name:  "+aGuard.name
+        a(href="/") Home Page

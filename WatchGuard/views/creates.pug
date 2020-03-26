@@ -1,0 +1,17 @@
+extends ./layout.pug
+block title
+    title  Create Profile
+block create
+    div.inputform(class="shadow-lg p-3 mb-5 bg-white rounded")
+        h5 Create new guard profile
+        form(action="/create" method="post" enctype="multipart/form-data" class="p-3 mb-2 bg-light text-dark")
+            input(type="text" class="form-control" name="name" placeholder="Name" required="required")
+            input(type="text" class="form-control" name="address" placeholder="Address" required="required")
+            input(type="text" class="form-control" name="phone" placeholder="Phone" required="required")
+            input(type="email" class="form-control" name="email" placeholder="Email" required="required")
+            input(type="file" name="file" class="form-control-file" placeholder="Select Picture")
+            a(href="/create")
+                button(class="btn btn-primary" style="width:80px; margin-right:5px;" ) Create
+            a(href="create")
+                <input type="reset" value="Reset" class="btn btn-warning" style="width:80px; margin:0px;" />
+            <a href="/" class="btn btn-danger" style="width:80px; margin:3px;">Cencel</a>

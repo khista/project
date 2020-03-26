@@ -1,0 +1,20 @@
+extends ./layout.pug
+block title
+    title  Edit Profile
+block create
+    
+        div.inputform(class="shadow-lg p-3 mb-5 bg-white rounded")
+            h1="Edit form for : " + pGuard.name
+            form(action="/edit/"+pGuard.id method="post" enctype="multipart/form-data" class="p-3 mb-2 bg-light text-dark")
+                input(type="text" value =pGuard.name class="form-control" name="name" placeholder="Name" required="required")
+                input(type="text" value =pGuard.address class="form-control" name="address" placeholder="Address" required="required")
+                input(type="text" value =pGuard.phone class="form-control" name="phone" placeholder="Phone" required="required")
+                input(type="email" value =pGuard.email class="form-control" name="email" placeholder="Email" required="required")
+                input(type="file" name="file" class="form-control-file" placeholder="Select Picture")
+                button(class="btn btn-warning") Update
+        div.images-update(class="shadow-lg p-3 mb-5 bg-white rounded")
+            img(src="/img/guards/"+pGuard.image, alt="guards.image")
+            br
+            h5="Name: "+pGuard.name
+            h5="Phone:" +pGuard.phone
+            h6="Serial No: "+pGuard._id

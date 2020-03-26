@@ -1,0 +1,23 @@
+extends ./layout.pug
+
+block title
+    title Home Page
+block content
+    p=paragraph
+
+    .guardsDiv(class="shadow-sm p-3 mb-5 bg-white rounded")
+        each sh in Variabl.guards
+            .guarddiv(class="shadow p-3 mb-5 bg-white rounded")
+                a(href="/Guard/"+ sh._id)
+                    img(class="card-img-top" src="/img/guards/" + sh.image alt="sh.image")
+                h6='First Name: ' + sh.name 
+                h6='Phone: '+sh.phone 
+                h6='Email: ' + sh.email 
+                h6='Address: '+ sh.address
+                hr
+                a(href="/edit/" + sh.id)
+                    button(class="btn btn-warning") Edit
+                a(href="/delete/" + sh._id)
+                    button(class="btn btn-danger") Delete
+block footer
+      
